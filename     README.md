@@ -155,6 +155,12 @@ Limitations
 
 
 
-Dataset Source
+Dataset Source and Acknowledgement
 
-Document the original dataset source and its usage licence here before publishing the project.
+This project uses the Superstore dataset published on Kaggle by Vivek Chowdhury.
+
+Source: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
+
+The dataset was originally sourced from Tableau, according to the uploader’s acknowledgement. Credit belongs to the original data creators.
+
+This project was developed for educational and portfolio purposes. The original dataset’s licence and redistribution permissions should be verified before the data is shared publicly.
