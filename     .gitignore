@@ -1,0 +1,9 @@
+# Keep the original dataset off public GitHub
+data/raw/
+
+# Ignore Python cache files
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore Mac system files
+.DS_Store
