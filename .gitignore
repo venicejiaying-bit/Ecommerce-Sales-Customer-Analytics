@@ -1,11 +1,10 @@
-# Keep the original dataset off public GitHub
+# Exclude datasets until redistribution permissions are confirmed
 data/raw/
+data/processed/
 
-# Ignore Python cache files
+# Python and Jupyter temporary files
 __pycache__/
 .ipynb_checkpoints/
 
-# Ignore Mac system files
+# macOS files
 .DS_Store
-
-data/raw/
