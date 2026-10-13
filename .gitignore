@@ -1,10 +1,10 @@
-# Exclude datasets until redistribution permissions are confirmed
+# Original and processed datasets
 data/raw/
 data/processed/
 
-# Python and Jupyter temporary files
+# Python temporary files
 __pycache__/
 .ipynb_checkpoints/
 
-# macOS files
+# macOS system files
 .DS_Store
