@@ -8,6 +8,8 @@ Using Python and SQL, I explored sales trends, compared product categories, inve
 
 The goal is to turn raw sales data into useful business insights and recommendations.
 
+
+
 Dataset Overview
 
 The dataset contains 9,994 records and 21 columns, including information about:
@@ -20,6 +22,8 @@ The dataset contains 9,994 records and 21 columns, including information about:
 
 The main variables used in the analysis were Sales, Profit, Quantity, Discount and Order Date.
 
+
+
 Tools and Technologies
 
 * Python — Data analysis and calculations
@@ -28,6 +32,8 @@ Tools and Technologies
 * SQL — Querying and summarising sales data
 * SQLite — Database operations, if used in the completed project
 * Jupyter Notebook — Documenting the analysis and displaying results
+
+
 
 Business Questions
 
@@ -39,6 +45,8 @@ This project investigates six business questions:
 4. Which regions contribute the most to sales?
 5. How are different discount levels associated with profitability?
 6. Which customers generate the highest sales, and do they also generate high profit?
+
+
 
 Key Findings
 
@@ -74,25 +82,31 @@ Sean Miller recorded the highest customer-level sales at approximately $25,043.0
 
 This demonstrates why customer performance should be evaluated using both sales and profit.
 
+
+
+
 Visualisations
 
 Sales by Category
-![alt text](images/sales_by_category.png)
+![Sales by Category](images/sales_by_category.png)
 
 Profitability by Sub-Category
-![alt text](images/profit_by_subcategory.png)
+![Profitability by Sub-Category](images/profit_by_subcategory.png)
 
 Monthly Sales Trend
-![alt text](images/monthly_sales_trend.png)
+![Monthly Sales Trend](images/monthly_sales_trend.png)
 
 Sales by Region
-![alt text](images/sales_by_region.png)
+![Sales by Region](images/sales_by_region.png)
 
 Discount Analysis
-![alt text](images/profit_margin_by_discount.png)
+![Discount Analysis](images/profit_margin_by_discount.png)
 
 Customer Analysis
-![alt text](images/top_customers_by_sales.png)
+![Customer Analysis](images/top_customers_by_sales.png)
+
+
+
 
 Business Recommendations
 
@@ -106,6 +120,8 @@ Based on the analysis, the business could:
 
 These recommendations require further investigation before specific business actions are implemented.
 
+
+
 Project Structure
 Ecommerce-Sales-Customer-Analytics/
 ├── data/
@@ -117,6 +133,7 @@ Ecommerce-Sales-Customer-Analytics/
 │   └── project_findings.md
 └── README.md
 
+
 How to Run the Project
 
 1. Download or clone this repository.
@@ -126,6 +143,8 @@ How to Run the Project
 5. Run the notebook cells in order to reproduce the analysis.
 6. Review the SQL queries in the sql/ folder.
 
+
+
 Limitations
 
 * The analysis describes historical sales performance and does not guarantee future results.
@@ -133,6 +152,8 @@ Limitations
 * Differences in profitability across discount levels do not prove that discounts alone caused those differences.
 * Customer sales and profit totals do not fully explain customer loyalty or future purchasing behaviour.
 * Data quality checks cannot guarantee that every record is accurate.
+
+
 
 Dataset Source
 
